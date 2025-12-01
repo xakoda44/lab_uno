@@ -5,6 +5,9 @@ import csv
 from datetime import date, datetime
 from tkcalendar import DateEntry
 
+"Измененный"
+
+
 class Person:
     def __init__(self, id, last_name, first_name, middle_name, gender, birth_date, work_from):
         self.id = id
